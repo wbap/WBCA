@@ -1,0 +1,303 @@
+FRP	FRP	Frontal pole cerebral cortex	Frontal pole cerebral cortex
+MOp	MOp	Primary motor area	Primary motor area
+MOs	MOs	Secondary motor area	Secondary motor area
+SSp-n	SSp-n	Primary somatosensory area nose	Primary somatosensory area nose
+SSp-bfd	SSp-bfd	Primary somatosensory area barrel field	Primary somatosensory area barrel field
+SSp-ll	SSp-ll	Primary somatosensory area lower limb	Primary somatosensory area lower limb
+SSp-m	SSp-m	Primary somatosensory area mouth	Primary somatosensory area mouth
+SSp-ul	SSp-ul	Primary somatosensory area upper limb	Primary somatosensory area upper limb
+SSp-tr	SSp-tr	Primary somatosensory area trunk	Primary somatosensory area trunk
+SSp-un	SSp-un	Primary somatosensory area unassigned	Primary somatosensory area unassigned
+SSs	SSs	Supplemental somatosensory area	Supplemental somatosensory area
+GU	GU	Gustatory areas	Gustatory areas
+VISC	VISC	Visceral area	Visceral area
+AUDd	AUDd	Dorsal auditory area	Dorsal auditory area
+AUDp	AUDp	Primary auditory area	Primary auditory area
+AUDpo	AUDpo	Posterior auditory area	Posterior auditory area
+AUDv	AUDv	Ventral auditory area	Ventral auditory area
+VISal	VISal	Anterolateral visual area	Anterolateral visual area
+VISam	VISam	Anteromedial visual area	Anteromedial visual area
+VISl	VISl	Lateral visual area	Lateral visual area
+VISp	VISp	Primary visual area	Primary visual area
+VISpl	VISpl	Posterolateral visual area	Posterolateral visual area
+VISpm	VISpm	posteromedial visual area	posteromedial visual area
+VISli	VISli	Laterointermediate area	Laterointermediate area
+VISpor	VISpor	Postrhinal area	Postrhinal area
+ACAd	ACAd	Anterior cingulate area dorsal part	Anterior cingulate area dorsal part
+ACAv	ACAv	Anterior cingulate area ventral part	Anterior cingulate area ventral part
+PL	PL	Prelimbic area	Prelimbic area
+ILA	ILA	Infralimbic area	Infralimbic area
+ORBl	ORBl	Orbital area lateral part	Orbital area lateral part
+ORBm	ORBm	Orbital area medial part	Orbital area medial part
+ORBvl	ORBvl	Orbital area ventrolateral part	Orbital area ventrolateral part
+AId	AId	Agranular insular area dorsal part	Agranular insular area dorsal part
+AIp	AIp	Agranular insular area posterior part	Agranular insular area posterior part
+AIv	AIv	Agranular insular area ventral part	Agranular insular area ventral part
+RSPagl	RSPagl	Retrosplenial area lateral agranular part	Retrosplenial area lateral agranular part
+RSPd	RSPd	Retrosplenial area dorsal part	Retrosplenial area dorsal part
+RSPv	RSPv	Retrosplenial area ventral part	Retrosplenial area ventral part
+VISa	VISa	Anterior area	Anterior area
+VISrl	VISrl	Rostrolateral visual area	Rostrolateral visual area
+TEa	TEa	Temporal association areas	Temporal association areas
+PERI	PERI	Perirhinal area	Perirhinal area
+ECT	ECT	Ectorhinal area	Ectorhinal area
+MOB	MOB	Main olfactory bulb	Main olfactory bulb
+AOB	AOB	Accessory olfactory bulb	Accessory olfactory bulb
+AON	AON	Anterior olfactory nucleus	Anterior olfactory nucleus
+TT	TT	Taenia tecta	Taenia tecta
+DP	DP	Dorsal peduncular area	Dorsal peduncular area
+PIR	PIR	Piriform area	Piriform area
+NLOT	NLOT	Nucleus of the lateral olfactory tract	Nucleus of the lateral olfactory tract
+COAa	COAa	Cortical amygdalar area anterior part	Cortical amygdalar area anterior part
+COAp	COAp	Cortical amygdalar area posterior part	Cortical amygdalar area posterior part
+PAA	PAA	Piriform-amygdalar area	Piriform-amygdalar area
+TR	TR	Postpiriform transition area	Postpiriform transition area
+CA1	CA1	Field CA1	Field CA1
+CA2	CA2	Field CA2	Field CA2
+CA3	CA3	Field CA3	Field CA3
+DG	DG	Dentate gyrus	Dentate gyrus
+FC	FC	Fasciola cinerea	Fasciola cinerea
+IG	IG	Induseum griseum	Induseum griseum
+ENTl	ENTl	Entorhinal area lateral part	Entorhinal area lateral part
+ENTm	ENTm	Entorhinal area medial part dorsal zone	Entorhinal area medial part dorsal zone
+ENTmv	ENTmv	Entorhinal area medial part ventral zone	Entorhinal area medial part ventral zone
+PAR	PAR	Parasubiculum	Parasubiculum
+POST	POST	Postsubiculum	Postsubiculum
+PRE	PRE	Presubiculum	Presubiculum
+SUB	SUB	Subiculum	Subiculum
+CLA	CLA	Claustrum	Claustrum
+EPd	EPd	Endopiriform nucleus dorsal part	Endopiriform nucleus dorsal part
+EPv	EPv	Endopiriform nucleus ventral part	Endopiriform nucleus ventral part
+LA	LA	Lateral amygdalar nucleus	Lateral amygdalar nucleus
+BLA	BLA	Basolateral amygdalar nucleus	Basolateral amygdalar nucleus
+BMA	BMA	Basomedial amygdalar nucleus	Basomedial amygdalar nucleus
+PA	PA	Posterior amygdalar nucleus	Posterior amygdalar nucleus
+CP	CP	Caudoputamen	Caudoputamen
+ACB	ACB	Nucleus accumbens	Nucleus accumbens
+FS	FS	Fundus of striatum	Fundus of striatum
+OT	OT	Olfactory tubercle	Olfactory tubercle
+LSc	LSc	Lateral septal nucleus caudal (caudodorsal) part	Lateral septal nucleus caudal (caudodorsal) part
+LSr	LSr	Lateral septal nucleus rostral (rostroventral) part	Lateral septal nucleus rostral (rostroventral) part
+LSv	LSv	Lateral septal nucleus ventral part	Lateral septal nucleus ventral part
+SF	SF	Septofimbrial nucleus	Septofimbrial nucleus
+SH	SH	Septohippocampal nucleus	Septohippocampal nucleus
+AAA	AAA	Anterior amygdalar area	Anterior amygdalar area
+BA	BA	Bed nucleus of the accessory olfactory tract	Bed nucleus of the accessory olfactory tract
+CEA	CEA	Central amygdalar nucleus	Central amygdalar nucleus
+IA	IA	Intercalated amygdalar nucleus	Intercalated amygdalar nucleus
+MEA	MEA	Medial amygdalar nucleus	Medial amygdalar nucleus
+GPe	GPe	Globus pallidus external segment	Globus pallidus external segment
+GPi	GPi	Globus pallidus internal segment	Globus pallidus internal segment
+SI	SI	Substantia innominata	Substantia innominata
+MA	MA	Magnocellular nucleus	Magnocellular nucleus
+MS	MS	Medial septal nucleus	Medial septal nucleus
+NDB	NDB	Diagonal band nucleus	Diagonal band nucleus
+TRS	TRS	Triangular nucleus of septum	Triangular nucleus of septum
+BST	BST	Bed nuclei of the stria terminalis	Bed nuclei of the stria terminalis
+BAC	BAC	Bed nucleus of the anterior commissure	Bed nucleus of the anterior commissure
+VAL	VAL	Ventral anterior-lateral complex of the thalamus	Ventral anterior-lateral complex of the thalamus
+VM	VM	Ventral medial nucleus of the thalamus	Ventral medial nucleus of the thalamus
+VPL	VPL	Ventral posterolateral nucleus of the thalamus	Ventral posterolateral nucleus of the thalamus
+VPLpc	VPLpc	Ventral posterolateral nucleus of the thalamus parvicellular part	Ventral posterolateral nucleus of the thalamus parvicellular part
+VPM	VPM	Ventral posteromedial nucleus of the thalamus	Ventral posteromedial nucleus of the thalamus
+VPMpc	VPMpc	Ventral posteromedial nucleus of the thalamus parvicellular part	Ventral posteromedial nucleus of the thalamus parvicellular part
+SPFm	SPFm	Subparafascicular nucleus magnocellular part	Subparafascicular nucleus magnocellular part
+SPFp	SPFp	Subparafascicular nucleus parvicellular part	Subparafascicular nucleus parvicellular part
+SPA	SPA	Subparafascicular area	Subparafascicular area
+PP	PP	Peripeduncular nucleus	Peripeduncular nucleus
+MG	MG	Medial geniculate complex	Medial geniculate complex
+LGd	LGd	Dorsal part of the lateral geniculate complex	Dorsal part of the lateral geniculate complex
+LP	LP	Lateral posterior nucleus of the thalamus	Lateral posterior nucleus of the thalamus
+PO	PO	Posterior complex of the thalamus	Posterior complex of the thalamus
+POL	POL	Posterior limiting nucleus of the thalamus	Posterior limiting nucleus of the thalamus
+SGN	SGN	Suprageniculate nucleus	Suprageniculate nucleus
+AV	AV	Anteroventral nucleus of thalamus	Anteroventral nucleus of thalamus
+AM	AM	Anteromedial nucleus	Anteromedial nucleus
+AD	AD	Anterodorsal nucleus	Anterodorsal nucleus
+IAM	IAM	Interanteromedial nucleus of the thalamus	Interanteromedial nucleus of the thalamus
+IAD	IAD	Interanterodorsal nucleus of the thalamus	Interanterodorsal nucleus of the thalamus
+LD	LD	Lateral dorsal nucleus of thalamus	Lateral dorsal nucleus of thalamus
+IMD	IMD	Intermediodorsal nucleus of the thalamus	Intermediodorsal nucleus of the thalamus
+MD	MD	Mediodorsal nucleus of thalamus	Mediodorsal nucleus of thalamus
+SMT	SMT	Submedial nucleus of the thalamus	Submedial nucleus of the thalamus
+PR	PR	Perireunensis nucleus	Perireunensis nucleus
+PVT	PVT	Paraventricular nucleus of the thalamus	Paraventricular nucleus of the thalamus
+PT	PT	Parataenial nucleus	Parataenial nucleus
+RE	RE	Nucleus of reuniens	Nucleus of reuniens
+RH	RH	Rhomboid nucleus	Rhomboid nucleus
+CM	CM	Central medial nucleus of the thalamus	Central medial nucleus of the thalamus
+PCN	PCN	Paracentral nucleus	Paracentral nucleus
+CL	CL	Central lateral nucleus of the thalamus	Central lateral nucleus of the thalamus
+PF	PF	Parafascicular nucleus	Parafascicular nucleus
+RT	RT	Reticular nucleus of the thalamus	Reticular nucleus of the thalamus
+IGL	IGL	Intergeniculate leaflet of the lateral geniculate complex	Intergeniculate leaflet of the lateral geniculate complex
+LGv	LGv	Ventral part of the lateral geniculate complex	Ventral part of the lateral geniculate complex
+SubG	SubG	Subgeniculate nucleus	Subgeniculate nucleus
+MH	MH	Medial habenula	Medial habenula
+LH	LH	Lateral habenula	Lateral habenula
+SO	SO	Supraoptic nucleus	Supraoptic nucleus
+ASO	ASO	Accessory supraoptic group	Accessory supraoptic group
+PVH	PVH	Paraventricular hypothalamic nucleus	Paraventricular hypothalamic nucleus
+PVa	PVa	Periventricular hypothalamic nucleus anterior part	Periventricular hypothalamic nucleus anterior part
+PVi	PVi	Periventricular hypothalamic nucleus intermediate part	Periventricular hypothalamic nucleus intermediate part
+ARH	ARH	Arcuate hypothalamic nucleus	Arcuate hypothalamic nucleus
+ADP	ADP	Anterodorsal preoptic nucleus	Anterodorsal preoptic nucleus
+AVP	AVP	Anteroventral preoptic nucleus	Anteroventral preoptic nucleus
+AVPV	AVPV	Anteroventral periventricular nucleus	Anteroventral periventricular nucleus
+DMH	DMH	Dorsomedial nucleus of the hypothalamus	Dorsomedial nucleus of the hypothalamus
+MEPO	MEPO	Median preoptic nucleus	Median preoptic nucleus
+MPO	MPO	Medial preoptic area	Medial preoptic area
+OV	OV	Vascular organ of the lamina terminalis	Vascular organ of the lamina terminalis
+PD	PD	Posterodorsal preoptic nucleus	Posterodorsal preoptic nucleus
+PS	PS	Parastrial nucleus	Parastrial nucleus
+PVp	PVp	Periventricular hypothalamic nucleus posterior part	Periventricular hypothalamic nucleus posterior part
+PVpo	PVpo	Periventricular hypothalamic nucleus preoptic part	Periventricular hypothalamic nucleus preoptic part
+SBPV	SBPV	Subparaventricular zone	Subparaventricular zone
+SCH	SCH	Suprachiasmatic nucleus	Suprachiasmatic nucleus
+SFO	SFO	Subfornical organ	Subfornical organ
+VLPO	VLPO	Ventrolateral preoptic nucleus	Ventrolateral preoptic nucleus
+AHN	AHN	Anterior hypothalamic nucleus	Anterior hypothalamic nucleus
+LM	LM	Lateral mammillary nucleus	Lateral mammillary nucleus
+MM	MM	Medial mammillary nucleus	Medial mammillary nucleus
+SUM	SUM	Supramammillary nucleus	Supramammillary nucleus
+TMd	TMd	Tuberomammillary nucleus dorsal part	Tuberomammillary nucleus dorsal part
+TMv	TMv	Tuberomammillary nucleus ventral part	Tuberomammillary nucleus ventral part
+MPN	MPN	Medial preoptic nucleus	Medial preoptic nucleus
+PMd	PMd	Dorsal premammillary nucleus	Dorsal premammillary nucleus
+PMv	PMv	Ventral premammillary nucleus	Ventral premammillary nucleus
+PVHd	PVHd	Paraventricular hypothalamic nucleus descending division	Paraventricular hypothalamic nucleus descending division
+VMH	VMH	Ventromedial hypothalamic nucleus	Ventromedial hypothalamic nucleus
+PH	PH	Posterior hypothalamic nucleus	Posterior hypothalamic nucleus
+LHA	LHA	Lateral hypothalamic area	Lateral hypothalamic area
+LPO	LPO	Lateral preoptic area	Lateral preoptic area
+PST	PST	Preparasubthalamic nucleus	Preparasubthalamic nucleus
+PSTN	PSTN	Parasubthalamic nucleus	Parasubthalamic nucleus
+RCH	RCH	Retrochiasmatic area	Retrochiasmatic area
+STN	STN	Subthalamic nucleus	Subthalamic nucleus
+TU	TU	Tuberal nucleus	Tuberal nucleus
+ZI	ZI	Zona incerta	Zona incerta
+SCs	SCs	Superior colliculus sensory related	Superior colliculus sensory related
+IC	IC	Inferior colliculus	Inferior colliculus
+NB	NB	Nucleus of the brachium of the inferior colliculus	Nucleus of the brachium of the inferior colliculus
+SAG	SAG	Nucleus sagulum	Nucleus sagulum
+PBG	PBG	Parabigeminal nucleus	Parabigeminal nucleus
+MEV	MEV	Midbrain trigeminal nucleus	Midbrain trigeminal nucleus
+SNr	SNr	Substantia nigra reticular part	Substantia nigra reticular part
+VTA	VTA	Ventral tegmental area	Ventral tegmental area
+RR	RR	Midbrain reticular nucleus retrorubral area	Midbrain reticular nucleus retrorubral area
+MRN	MRN	Midbrain reticular nucleus	Midbrain reticular nucleus
+SCm	SCm	Superior colliculus motor related	Superior colliculus motor related
+PAG	PAG	Periaqueductal gray	Periaqueductal gray
+APN	APN	Anterior pretectal nucleus	Anterior pretectal nucleus
+MPT	MPT	Medial pretectal area	Medial pretectal area
+NOT	NOT	Nucleus of the optic tract	Nucleus of the optic tract
+NPC	NPC	Nucleus of the posterior commissure	Nucleus of the posterior commissure
+OP	OP	Olivary pretectal nucleus	Olivary pretectal nucleus
+PPT	PPT	Posterior pretectal nucleus	Posterior pretectal nucleus
+CUN	CUN	Cuneiform nucleus	Cuneiform nucleus
+RN	RN	Red nucleus	Red nucleus
+III	III	Oculomotor nucleus	Oculomotor nucleus
+EW	EW	Edinger-Westphal nucleus	Edinger-Westphal nucleus
+IV	IV	Trochlear nucleus	Trochlear nucleus
+VTN	VTN	Ventral tegmental nucleus	Ventral tegmental nucleus
+AT	AT	Anterior tegmental nucleus	Anterior tegmental nucleus
+LT	LT	Lateral terminal nucleus of the accessory optic tract	Lateral terminal nucleus of the accessory optic tract
+SNc	SNc	Substantia nigra compact part	Substantia nigra compact part
+PPN	PPN	Pedunculopontine nucleus	Pedunculopontine nucleus
+IF	IF	Interfascicular nucleus raphe	Interfascicular nucleus raphe
+IPN	IPN	Interpeduncular nucleus	Interpeduncular nucleus
+RL	RL	Rostral linear nucleus raphe	Rostral linear nucleus raphe
+CLI	CLI	Central linear nucleus raphe	Central linear nucleus raphe
+DR	DR	Dorsal nucleus raphe	Dorsal nucleus raphe
+NLL	NLL	Nucleus of the lateral lemniscus	Nucleus of the lateral lemniscus
+PSV	PSV	Principal sensory nucleus of the trigeminal	Principal sensory nucleus of the trigeminal
+PB	PB	Parabrachial nucleus	Parabrachial nucleus
+SOC	SOC	Superior olivary complex	Superior olivary complex
+B	B	Barrington's nucleus	Barrington's nucleus
+DTN	DTN	Dorsal tegmental nucleus	Dorsal tegmental nucleus
+PCG	PCG	Pontine central gray	Pontine central gray
+PG	PG	Pontine gray	Pontine gray
+PRNc	PRNc	Pontine reticular nucleus caudal part	Pontine reticular nucleus caudal part
+SG	SG	Supragenual nucleus	Supragenual nucleus
+SUT	SUT	Supratrigeminal nucleus	Supratrigeminal nucleus
+TRN	TRN	Tegmental reticular nucleus	Tegmental reticular nucleus
+V	V	Motor nucleus of trigeminal	Motor nucleus of trigeminal
+CS	CS	Superior central nucleus raphe	Superior central nucleus raphe
+LC	LC	Locus ceruleus	Locus ceruleus
+LDT	LDT	Laterodorsal tegmental nucleus	Laterodorsal tegmental nucleus
+NI	NI	Nucleus incertus	Nucleus incertus
+PRNr	PRNr	Pontine reticular nucleus	Pontine reticular nucleus
+RPO	RPO	Nucleus raphe pontis	Nucleus raphe pontis
+SLC	SLC	Subceruleus nucleus	Subceruleus nucleus
+SLD	SLD	Sublaterodorsal nucleus	Sublaterodorsal nucleus
+AP	AP	Area postrema	Area postrema
+DCO	DCO	Dorsal cochlear nucleus	Dorsal cochlear nucleus
+VCO	VCO	Ventral cochlear nucleus	Ventral cochlear nucleus
+CU	CU	Cuneate nucleus	Cuneate nucleus
+GR	GR	Gracile nucleus	Gracile nucleus
+ECU	ECU	External cuneate nucleus	External cuneate nucleus
+NTB	NTB	Nucleus of the trapezoid body	Nucleus of the trapezoid body
+NTS	NTS	Nucleus of the solitary tract	Nucleus of the solitary tract
+SPVC	SPVC	Spinal nucleus of the trigeminal caudal part	Spinal nucleus of the trigeminal caudal part
+SPVI	SPVI	Spinal nucleus of the trigeminal interpolar part	Spinal nucleus of the trigeminal interpolar part
+SPVO	SPVO	Spinal nucleus of the trigeminal oral part	Spinal nucleus of the trigeminal oral part
+VI	VI	Abducens nucleus	Abducens nucleus
+VII	VII	Facial motor nucleus	Facial motor nucleus
+ACVII	ACVII	Accessory facial motor nucleus	Accessory facial motor nucleus
+AMB	AMB	Nucleus ambiguus	Nucleus ambiguus
+DMX	DMX	Dorsal motor nucleus of the vagus nerve	Dorsal motor nucleus of the vagus nerve
+GRN	GRN	Gigantocellular reticular nucleus	Gigantocellular reticular nucleus
+ICB	ICB	Infracerebellar nucleus	Infracerebellar nucleus
+IO	IO	Inferior olivary complex	Inferior olivary complex
+IRN	IRN	Intermediate reticular nucleus	Intermediate reticular nucleus
+ISN	ISN	Inferior salivatory nucleus	Inferior salivatory nucleus
+LIN	LIN	Linear nucleus of the medulla	Linear nucleus of the medulla
+LRN	LRN	Lateral reticular nucleus	Lateral reticular nucleus
+MARN	MARN	Magnocellular reticular nucleus	Magnocellular reticular nucleus
+MDRNd	MDRNd	Medullary reticular nucleus dorsal part	Medullary reticular nucleus dorsal part
+MDRNv	MDRNv	Medullary reticular nucleus ventral part	Medullary reticular nucleus ventral part
+PARN	PARN	Parvicellular reticular nucleus	Parvicellular reticular nucleus
+PAS	PAS	Parasolitary nucleus	Parasolitary nucleus
+PGRNd	PGRNd	Paragigantocellular reticular nucleus dorsal part	Paragigantocellular reticular nucleus dorsal part
+PGRNl	PGRNl	Paragigantocellular reticular nucleus lateral part	Paragigantocellular reticular nucleus lateral part
+NR	NR	Nucleus of Roller	Nucleus of Roller
+PRP	PRP	Nucleus prepositus	Nucleus prepositus
+PPY	PPY	Parapyramidal nucleus	Parapyramidal nucleus
+LAV	LAV	Lateral vestibular nucleus	Lateral vestibular nucleus
+MV	MV	Medial vestibular nucleus	Medial vestibular nucleus
+SPIV	SPIV	Spinal vestibular nucleus	Spinal vestibular nucleus
+SUV	SUV	Superior vestibular nucleus	Superior vestibular nucleus
+x	x	Nucleus x	Nucleus x
+XII	XII	Hypoglossal nucleus	Hypoglossal nucleus
+y	y	Nucleus y	Nucleus y
+RM	RM	Nucleus raphe magnus	Nucleus raphe magnus
+RPA	RPA	Nucleus raphe pallidus	Nucleus raphe pallidus
+RO	RO	Nucleus raphe obscurus	Nucleus raphe obscurus
+LING	LING	Lingula (I)	Lingula (I)
+CENT	CENT	Central lobule	Central lobule
+CUL	CUL	Culmen	Culmen
+DEC	DEC	Declive (VI)	Declive (VI)
+FOTU	FOTU	Folium-tuber vermis (VII)	Folium-tuber vermis (VII)
+PYR	PYR	Pyramus (VIII)	Pyramus (VIII)
+UVU	UVU	Uvula (IX)	Uvula (IX)
+NOD	NOD	Nodulus (X)	Nodulus (X)
+SIM	SIM	Simple lobule	Simple lobule
+AN	AN	Ansiform lobule	Ansiform lobule
+PRM	PRM	Paramedian lobule	Paramedian lobule
+COPY	COPY	Copula pyramidis	Copula pyramidis
+PFL	PFL	Paraflocculus	Paraflocculus
+FL	FL	Flocculus	Flocculus
+FN	FN	Fastigial nucleus	Fastigial nucleus
+IP	IP	Interposed nucleus	Interposed nucleus
+DN	DN	Dentate nucleus	Dentate nucleus
+Cerebellum	Cerebellum	Cerebellum	Cerebellum
+Isocortex	Isocortex	Isocortex	Isocortex
+Hippocampal formation	Hippocampal formation	Hippocampal formation	Hippocampal formation
+Olfactory areas	Olfactory areas	Olfactory areas	Olfactory areas
+Cortical subplate	Cortical subplate	Cortical subplate	Cortical subplate
+Cerebral nuclei	Cerebral nuclei	Cerebral nuclei	Cerebral nuclei
+Thalamus	Thalamus	Thalamus	Thalamus
+Hypothalamus	Hypothalamus	Hypothalamus	Hypothalamus
+Midbrain	Midbrain	Midbrain	Midbrain
+Medulla	Medulla	Medulla	Medulla
+Pons	Pons	Pons	Pons
