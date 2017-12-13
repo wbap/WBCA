@@ -1,4 +1,4 @@
-# WBCA
+# Whole Brain Connectomic Architecture (WBCA)
 The mechanisms of information processing in the neocortex underlie brain functions based on the hierarchy of individual 
 cortical areas. This study was focused on the determination of the neocortical hierarchy resulting from a clustering 
 analysis of connectomic morphology with cortical layer resolution. K-means clustering effectively classified 
