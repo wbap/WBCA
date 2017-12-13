@@ -46,7 +46,7 @@ E_i: Set\,of\,all\,voxels\,containing\,neuron\,infected\,on\,the\,i^{th}\,inject
 \end{align*}
 ```
 
-### **FF/FB Analysis**
+### **Feedforward/Feedback (FF/FB) Analysis**
 ##### Principal Component Analysis (PCA)
 Dimensionality reduction was applied to connectivity strengths from 1st to 6th layers in neocortex areas. At this point, 
 we just chose visual and auditory areas to analyze using PCA since those two specific areas have more researches done in 
