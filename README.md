@@ -68,17 +68,25 @@ namely 1566 to 72 in ratio, respectively; however, the strengths in FB have stro
 
 ### **Port Size**
 ##### Number of neurons in each brain region
+As previously stated, we have obtained the volume (the number of voxels) of each of the 
+regions  as well as the volume (voxels) of the major regions of the brain from the 
+Allen Brain Atlas SDK. We then utilized the numbers indicating the number of neurons in 
+each major regions that Ryuichi Ueda, director of CIT autonomous robots lab, has 
+provided to us, and obtained the number of neurons in each region. Note that this is 
+possible from examining the ratio of volume and the number of neurons in both regions 
+and major regions of the brain.
 
 ##### Computing Method
+The port size is equal to the sheer number of neurons that travels from one region, S, 
+to the other region, T. (i.e. ViSp → VISl). In order to compute the port size, we 
+decided to take into account the number of neurons in S, the connectivity strength(CS) 
+from S to T, and the aggregate connectivity strength from S to the other regions. The equation is as follows.
 
-```math
-N_{out}(A\to B) = \frac{N\bullet C(A\to B)}{sum\,of\,C\,from\,region\,A}\\
+Nout(S→T) = Ns * CS(S→T) / sum(CS(S→?))
 
-\begin{align*}
-N: Number\,of\,cells\,in\,region\,A\\
-C: Connectivity\,strength\\
-\end{align*}
-```
+Finally, we created a 292 by 292 square-matrix (finale_matrix.csv), mapping the port size 
+from one region, S to another region, T. (The first row corresponds to region S and 
+the first column corresponds to region T).
 
 
 ## Output Data
