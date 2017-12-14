@@ -68,7 +68,7 @@ to the other region, T. (i.e. ViSp → VISl). In order to compute the port size,
 decided to take into account the number of neurons in S, the connectivity strength(CS) 
 from S to T, and the aggregate connectivity strength from S to the other regions. The equation is as follows.
 
-Nout(S→T) = Ns * CS(S→T) / sum(CS(S→?))
+![img](http://latex.codecogs.com/svg.latex?N_%7Bout%7D%28S%5Cto%20T%29%20%3D%20%5Cfrac%7BNs%5Cbullet%20CS%28S%5Cto%20T%29%7D%7B%5Csum%7BCS%28S%5Cto%20%3F%29%7D%7D%5C%5C%20%5Cbegin%7Balign*%7D%20Ns%3A%20Number%5C%2Cof%5C%2Ccells%5C%2Cin%5C%2Cregion%5C%2CA%5C%5C%20CS%3A%20Connectivity%5C%2Cstrength%5C%5C%20%5Cend%7Balign*%7D)
 
 Finally, we created a 292 by 292 square-matrix (finale_matrix.csv), mapping the port size 
 from one region, S to another region, T. (The first row corresponds to region S and 
@@ -79,7 +79,9 @@ the first column corresponds to region T).
 ### JSON
 Used table2brical.py (python2.7) to get modules for BriCA.
 
-![img](http://latex.codecogs.com/svg.latex?N_%7Bout%7D%28S%5Cto%20T%29%20%3D%20%5Cfrac%7BNs%5Cbullet%20CS%28S%5Cto%20T%29%7D%7B%5Csum%7BCS%28S%5Cto%20%3F%29%7D%7D%5C%5C%20%5Cbegin%7Balign*%7D%20Ns%3A%20Number%5C%2Cof%5C%2Ccells%5C%2Cin%5C%2Cregion%5C%2CA%5C%5C%20CS%3A%20Connectivity%5C%2Cstrength%5C%5C%20%5Cend%7Balign*%7D)
+```text
+python table2brical.py connection.txt regions.txt hierarchy.txt output.json prefix threshold
+```
 
 ### Determination of Threshold
 A threshold on connectivity strengths was implemented for better looking and understanding purposes on the wiring 
