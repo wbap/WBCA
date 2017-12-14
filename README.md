@@ -29,7 +29,7 @@ projection volume and injection volume data taken from *Mouse Connectivity* modu
 was used as the input data (consists of 6 x 1638) for following principal component analysis (PCA), 
 K-means clustering, number of voxels, and computation of thresholds.
 
-![equation](http://latex.codecogs.com/gif.download?min_%7BW_%7BX%2CY%7D%5Cgeq%200%7D%20%5Csum_%7Bi%3D1%7D%5E%7B%7CS_E%7C%7D%20%5Cleft%20%28%5Csum_%7BX%5Cin%20%7BS_X%7D%7D%20W_%7BX%2CY%7D%20PV%28X%5Ccap%20%7BE_i%7D%29%20-PV%28Y%29%20%5Cright%29%5E2%5C%5C%20%5Cbegin%7Balign*%7D%20X%3A%20Source%5C%2Cregion%5C%5C%20Y%3A%20Target%5C%2Cregion%5C%5C%20W_%7BX%2CY%7D%3A%20Normalized%5C%2Cconnection%5C%2Cstrength%5C%5C%20PV%3A%20Projection%5C%2Cvolume%5C%5C%20E_i%3A%20Set%5C%2Cof%5C%2Call%5C%2Cvoxels%5C%2Ccontaining%5C%2Cneuron%5C%2Cinfected%5C%2Con%5C%2Cthe%5C%2Ci%5E%7Bth%7D%5C%2Cinjection%5C%5C%20%5Cend%7Balign*%7D)
+![img](http://latex.codecogs.com/svg.latex?min_%7BW_%7BX%2CY%7D%5Cgeq%200%7D%20%5Csum_%7Bi%3D1%7D%5E%7B%7CS_E%7C%7D%20%5Cleft%20%28%5Csum_%7BX%5Cin%20%7BS_X%7D%7D%20W_%7BX%2CY%7D%20PV%28X%5Ccap%20%7BE_i%7D%29%20-PV%28Y%29%20%5Cright%29%5E2%5C%5C%20%5Cbegin%7Balign*%7D%20X%3A%20Source%5C%2Cregion%5C%5C%20Y%3A%20Target%5C%2Cregion%5C%5C%20W_%7BX%2CY%7D%3A%20Normalized%5C%2Cconnection%5C%2Cstrength%5C%5C%20PV%3A%20Projection%5C%2Cvolume%5C%5C%20E_i%3A%20Set%5C%2Cof%5C%2Call%5C%2Cvoxels%5C%2Ccontaining%5C%2Cneuron%5C%2Cinfected%5C%2Con%5C%2Cthe%5C%2Ci%5E%7Bth%7D%5C%2Cinjection%5C%5C%20%5Cend%7Balign*%7D)
 
 
 ### **Feedforward/Feedback (FF/FB) Analysis**
@@ -79,7 +79,7 @@ the first column corresponds to region T).
 ### JSON
 Used table2brical.py (python2.7) to get modules for BriCA.
 
-![equation](http://latex.codecogs.com/gif.download?N_%7Bout%7D%28S%5Cto%20T%29%20%3D%20%5Cfrac%7BNs%5Cbullet%20CS%28S%5Cto%20T%29%7D%7B%5Csum%7BCS%28S%5Cto%20%3F%29%7D%7D%5C%5C%20%5Cbegin%7Balign*%7D%20Ns%3A%20Number%5C%2Cof%5C%2Ccells%5C%2Cin%5C%2Cregion%5C%2CA%5C%5C%20CS%3A%20Connectivity%5C%2Cstrength%5C%5C%20%5Cend%7Balign*%7D)
+![img](http://latex.codecogs.com/svg.latex?N_%7Bout%7D%28S%5Cto%20T%29%20%3D%20%5Cfrac%7BNs%5Cbullet%20CS%28S%5Cto%20T%29%7D%7B%5Csum%7BCS%28S%5Cto%20%3F%29%7D%7D%5C%5C%20%5Cbegin%7Balign*%7D%20Ns%3A%20Number%5C%2Cof%5C%2Ccells%5C%2Cin%5C%2Cregion%5C%2CA%5C%5C%20CS%3A%20Connectivity%5C%2Cstrength%5C%5C%20%5Cend%7Balign*%7D)
 
 ### Determination of Threshold
 A threshold on connectivity strengths was implemented for better looking and understanding purposes on the wiring 
