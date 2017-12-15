@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-
-"""
-
 from __future__ import print_function
 import csv
 import pandas as pd
@@ -28,7 +24,7 @@ def loadMatrix():
 
     acronym_list = np.sort(np.unique(list(df.index) + list(df.columns)))
 
-    df.to_csv('new/conn_matrix.csv', header=True, index=True)
+    df.to_csv('WBCA2017/conn_matrix.csv', header=True, index=True)
 
     return acronym_list
 
@@ -56,20 +52,20 @@ def hierarchy(acronym_list):
 
     df1.insert(loc=0, column='Region', value=temp_list)
     df1.insert(loc=0, column='Acronym', value=hierarchy_list)
-    df1.to_csv('new/port_size_matrix.csv', index=0)
+    df1.to_csv('WBCA2017/port_size_matrix.csv', index=0)
 
-    with open('new/hierarchy.txt', 'w') as output_file:
-        with open('new/port_size_matrix.csv', 'r') as input_file:
+    with open('WBCA2017/hierarchy.txt', 'w') as output_file:
+        with open('WBCA2017/port_size_matrix.csv', 'r') as input_file:
             [output_file.write('\t'.join(row) + '\n') for row in csv.reader(input_file)]
         # output_file.close()
 
-    df1.to_csv('new/port_size_matrix.csv', header=True, index=True)
+    df1.to_csv('WBCA2017/port_size_matrix.csv', header=True, index=True)
 
     return hierarchy_list
 
 
 def extractMatrix(hierarchy_list):
-    csv_file = 'new/conn_matrix.csv'
+    csv_file = 'WBCA2017/conn_matrix.csv'
     df = pd.read_csv(csv_file, index_col=0, header=0)
 
     col_delete_list = [name for name in df.columns if name not in hierarchy_list]
@@ -84,28 +80,28 @@ def extractMatrix(hierarchy_list):
 
     acronym_list = np.sort(np.unique(list(df.index) + list(df.columns)))
 
-    df3.to_csv('new/conn_matrix.csv', header=True, index=True)
+    df3.to_csv('WBCA2017/conn_matrix.csv', header=True, index=True)
 
     return acronym_list
 
 
 def connectivity():
-    csv_file = 'new/conn_matrix.csv'
+    csv_file = 'WBCA2017/conn_matrix.csv'
     df = pd.read_csv(csv_file, index_col=0, header=0)
 
-    df.to_csv('new/conn_matrix.csv', header=True, index=True)
+    df.to_csv('WBCA2017/conn_matrix.csv', header=True, index=True)
 
-    with open('new/connection.txt', 'w') as my_output_file:
+    with open('WBCA2017/connection.txt', 'w') as my_output_file:
         with open(csv_file, 'r') as my_input_file:
             [my_output_file.write('\t'.join(row) + '\n') for row in csv.reader(my_input_file)]
         # my_output_file.close()
 
 
 def blockDiagram():
-    csv_file = 'new/conn_matrix.csv'
+    csv_file = 'WBCA2017/conn_matrix.csv'
     df = pd.read_csv(csv_file, index_col=0, header=0)
 
-    with open('new/blockDiagram.txt', 'w') as f:
+    with open('WBCA2017/blockDiagram.txt', 'w') as f:
         for idx in df.index:
             for col in df.columns:
                 if df.at[idx, col] > 0:
@@ -124,7 +120,7 @@ def region(acronym_list):
                    'Cerebral nuclei', 'Thalamus', 'Hypothalamus', 'Midbrain', 'Medulla', 'Pons']
 
     region_list = []
-    with open('new/regions.txt', 'w') as f:
+    with open('WBCA2017/regions.txt', 'w') as f:
         for ac, name in zip(df['acronym'], df['safe_name']):
             if ac in acronym_list:
                 f.write('{}\t{}\t{}\t{}\n'.format(ac, ac, name, name))
