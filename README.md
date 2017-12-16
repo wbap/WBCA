@@ -76,7 +76,16 @@ the first column corresponds to region T).
 
 ## Output Data
 ### JSON
-Used table2brical.py (python2.7) to get modules for BriCA.
+We used table2brical.py (python2.7) to get modules for BriCA. But in advance, we had to prepare a total of three text files, 
+namely connection.txt, regions.txt, and hierarchy.txt. In brief, connection.txt has a matrix consists of sources in the
+first column (index) and targets in the first row (header) with corresponding connectivity strengths. regions.txt has 
+acronyms in the first and second columns and corresponding safe name in the third and fourth columns. The first and 
+second columns have totally same acronyms in it. Same for the third and fourth columns. Lastly, hierarchy.txt has 
+acronyms in the first column and corresponding parent-region in the second column. From the third column, it is similar 
+to the matrix shown in the connection.txt that the third column has sources and the first row from the third column 
+shows targets. The only difference is the values in the matrix which has a number of port-size instead of connectivity 
+strength. Texts inside the text files are separated by tabs instead of the comma. After having these files ready, run the 
+table2brical.py using the text files.
 
 ```text
 python table2brical.py connection.txt regions.txt hierarchy.txt output.json prefix threshold
