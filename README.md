@@ -128,6 +128,8 @@ mmdc -i blockCreator.mmd -o output.png -b transparent -w 1500 -H 1000
 If you run the blockCreator.mmd command shown above, the output will look something like this.
 (The image shows a wiring diagram of FF/FB connections when the threshold of connectivity strength is 0.843.)
 
+![ScreenShot](https://github.com/wbap/WBCA/blob/master/Wiring%20Diagram/output.png)
+
 Note that out initial intent was to use 0.2597, the average connectivity strength of all isocrotex areas, in order to make the wiring diagram easier to see and visualize. However, when we used the value as a threshold, the FF wiring diagram did not become a directed acyclic graph(DAG). We then decided to use a different value as a threshold so that the image creates a DAG. When we gradually incresed the value of the threshold, 0.843 was when the DAG was created and applied this number to the FB wiring diagram as well. 
 
 ## Reliability and Issues
