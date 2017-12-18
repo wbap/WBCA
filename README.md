@@ -100,7 +100,7 @@ of connectivity strengths among isocortex and retained the top 20%, correspondin
 typically FB. However, because of the resulting scarcity of FF connections, we decided to use the average method 
 instead of the power-law method in order to create a comprehensive wiring diagram.
 
-Till now, we were using a threshold of 0.259706328093, which is an average connectivity strength within neocortex, in 
+Til now, we were using a threshold of 0.259706328093, which is an average connectivity strength within neocortex, in 
 order to make a wiring diagram. However, there were some cycles in feedforward wiring diagram when the average 
 connectivity strength was used as a threshold. Because we had to create a wiring diagram with a finite constrained 
 directed graph with no directed cycle, we needed to make another threshold which follows these restrictions.
@@ -128,7 +128,9 @@ mmdc -i blockCreator.mmd -o output.png -b transparent -w 1500 -H 1000
 If you run the blockCreator.mmd command shown above, the output will look something like this.
 (The image shows a wiring diagram of FF/FB connections when the threshold of connectivity strength is 0.843.)
 
+
 ![ScreenShot](https://github.com/wbap/WBCA/blob/master/Wiring%20Diagram/output.png)
+
 
 
 ## Reliability and Issues
