@@ -49,6 +49,7 @@ In this product, the module corresponds to the brain region annotated by Allen I
 The Allen Institute provides a software development kit, the Allen Brain Atlas SDK, to collect data for neural connectivity analysis between brain regions. We have utilized *Mouse Connectivity* and *Reference Space* modules from *Allen Brain Atlas SDK* in order to create mouse brain connectome. [*Mouse Connectivity*](http://alleninstitute.github.io/AllenSDK/connectivity.html) includes data for calculating connectivity strength, FF/FB, etc. [*Reference Space*](http://alleninstitute.github.io/AllenSDK/reference_space.html) contains data to get a number of voxels (volume).
 
 ![image_dfd](https://user-images.githubusercontent.com/32238693/34351451-1d16a16a-ea60-11e7-95c5-e41e2f128c24.png)
+The data flow diagram for Mouse Brain Connectivity Atlas
 
 ## Outputting Data
 
