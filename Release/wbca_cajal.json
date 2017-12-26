@@ -985,7 +985,7 @@
    "ToPort": "VAL-MOp-Input"
   }, 
   {
-   "Comment": "A connection from VAL to MOs, Connectivity Strength: 5.69225349021, FF-FB: FF", 
+   "Comment": "A connection from VAL to MOs, Connectivity Strength: 5.69225349021, FF-FB: FB", 
    "FromModule": "VAL", 
    "Name": "VAL-MOs", 
    "FromPort": "VAL-MOs-Output", 
@@ -2225,14 +2225,6 @@
    "ToPort": "SSp-ul-SSs-Input"
   }, 
   {
-   "Comment": "A connection from SSp-ul to VAL, Connectivity Strength: 0.0875315772168, FF-FB: FF", 
-   "FromModule": "SSp-ul", 
-   "Name": "SSp-ul-VAL", 
-   "FromPort": "SSp-ul-VAL-Output", 
-   "ToModule": "VAL", 
-   "ToPort": "SSp-ul-VAL-Input"
-  }, 
-  {
    "Comment": "A connection from SSp-ul to VPL, Connectivity Strength: 0.15543435129, FF-FB: FF", 
    "FromModule": "SSp-ul", 
    "Name": "SSp-ul-VPL", 
@@ -2431,22 +2423,6 @@
    "FromPort": "ORBl-SMT-Output", 
    "ToModule": "SMT", 
    "ToPort": "ORBl-SMT-Input"
-  }, 
-  {
-   "Comment": "A connection from ORBl to VAL, Connectivity Strength: 0.196804819435, FF-FB: FF", 
-   "FromModule": "ORBl", 
-   "Name": "ORBl-VAL", 
-   "FromPort": "ORBl-VAL-Output", 
-   "ToModule": "VAL", 
-   "ToPort": "ORBl-VAL-Input"
-  }, 
-  {
-   "Comment": "A connection from ORBl to VM, Connectivity Strength: 0.365925498528, FF-FB: FF", 
-   "FromModule": "ORBl", 
-   "Name": "ORBl-VM", 
-   "FromPort": "ORBl-VM-Output", 
-   "ToModule": "VM", 
-   "ToPort": "ORBl-VM-Input"
   }, 
   {
    "Comment": "A connection from VPL to AId, Connectivity Strength: 0.187804587674, FF-FB: FF", 
@@ -3217,7 +3193,7 @@
    "ToPort": "PO-LP-Input"
   }, 
   {
-   "Comment": "A connection from PO to MOp, Connectivity Strength: 2.2460193533, FF-FB: FF", 
+   "Comment": "A connection from PO to MOp, Connectivity Strength: 2.2460193533, FF-FB: FB", 
    "FromModule": "PO", 
    "Name": "PO-MOp", 
    "FromPort": "PO-MOp-Output", 
@@ -3225,7 +3201,7 @@
    "ToPort": "PO-MOp-Input"
   }, 
   {
-   "Comment": "A connection from PO to MOs, Connectivity Strength: 1.38887324565, FF-FB: FF", 
+   "Comment": "A connection from PO to MOs, Connectivity Strength: 1.38887324565, FF-FB: FB", 
    "FromModule": "PO", 
    "Name": "PO-MOs", 
    "FromPort": "PO-MOs-Output", 
@@ -3977,7 +3953,7 @@
    "ToPort": "VISal-IGL-Input"
   }, 
   {
-   "Comment": "A connection from VISal to LD, Connectivity Strength: 1.40266444484, FF-FB: FF", 
+   "Comment": "A connection from VISal to LD, Connectivity Strength: 1.40266444484, FF-FB: FB", 
    "FromModule": "VISal", 
    "Name": "VISal-LD", 
    "FromPort": "VISal-LD-Output", 
@@ -4159,14 +4135,6 @@
    "FromPort": "VISal-TEa-Output", 
    "ToModule": "TEa", 
    "ToPort": "VISal-TEa-Input"
-  }, 
-  {
-   "Comment": "A connection from VISal to VAL, Connectivity Strength: 0.255008306292, FF-FB: FF", 
-   "FromModule": "VISal", 
-   "Name": "VISal-VAL", 
-   "FromPort": "VISal-VAL-Output", 
-   "ToModule": "VAL", 
-   "ToPort": "VISal-VAL-Input"
   }, 
   {
    "Comment": "A connection from VISal to VISa, Connectivity Strength: 3.43566194486, FF-FB: FB", 
@@ -7073,7 +7041,7 @@
    "ToPort": "MD-AId-Input"
   }, 
   {
-   "Comment": "A connection from MD to AIv, Connectivity Strength: 0.767740285685, FF-FB: FF", 
+   "Comment": "A connection from MD to AIv, Connectivity Strength: 0.767740285685, FF-FB: FB", 
    "FromModule": "MD", 
    "Name": "MD-AIv", 
    "FromPort": "MD-AIv-Output", 
@@ -7129,7 +7097,7 @@
    "ToPort": "MD-MOs-Input"
   }, 
   {
-   "Comment": "A connection from MD to ORBl, Connectivity Strength: 0.615297564458, FF-FB: FF", 
+   "Comment": "A connection from MD to ORBl, Connectivity Strength: 0.615297564458, FF-FB: FB", 
    "FromModule": "MD", 
    "Name": "MD-ORBl", 
    "FromPort": "MD-ORBl-Output", 
@@ -7137,7 +7105,7 @@
    "ToPort": "MD-ORBl-Input"
   }, 
   {
-   "Comment": "A connection from MD to ORBm, Connectivity Strength: 0.903143115782, FF-FB: FF", 
+   "Comment": "A connection from MD to ORBm, Connectivity Strength: 0.903143115782, FF-FB: FB", 
    "FromModule": "MD", 
    "Name": "MD-ORBm", 
    "FromPort": "MD-ORBm-Output", 
@@ -7145,7 +7113,7 @@
    "ToPort": "MD-ORBm-Input"
   }, 
   {
-   "Comment": "A connection from MD to ORBvl, Connectivity Strength: 0.595597787576, FF-FB: FF", 
+   "Comment": "A connection from MD to ORBvl, Connectivity Strength: 0.595597787576, FF-FB: FB", 
    "FromModule": "MD", 
    "Name": "MD-ORBvl", 
    "FromPort": "MD-ORBvl-Output", 
@@ -7153,7 +7121,7 @@
    "ToPort": "MD-ORBvl-Input"
   }, 
   {
-   "Comment": "A connection from MD to PL, Connectivity Strength: 1.2128029265, FF-FB: FF", 
+   "Comment": "A connection from MD to PL, Connectivity Strength: 1.2128029265, FF-FB: FB", 
    "FromModule": "MD", 
    "Name": "MD-PL", 
    "FromPort": "MD-PL-Output", 
@@ -7217,7 +7185,7 @@
    "ToPort": "MG-AUDpo-Input"
   }, 
   {
-   "Comment": "A connection from MG to AUDv, Connectivity Strength: 8.46661398511, FF-FB: FF", 
+   "Comment": "A connection from MG to AUDv, Connectivity Strength: 8.46661398511, FF-FB: FB", 
    "FromModule": "MG", 
    "Name": "MG-AUDv", 
    "FromPort": "MG-AUDv-Output", 
@@ -7305,7 +7273,7 @@
    "ToPort": "MG-DMH-Input"
   }, 
   {
-   "Comment": "A connection from MG to ECT, Connectivity Strength: 2.5828848361, FF-FB: FF", 
+   "Comment": "A connection from MG to ECT, Connectivity Strength: 2.5828848361, FF-FB: FB", 
    "FromModule": "MG", 
    "Name": "MG-ECT", 
    "FromPort": "MG-ECT-Output", 
@@ -7537,7 +7505,7 @@
    "ToPort": "MG-SPFp-Input"
   }, 
   {
-   "Comment": "A connection from MG to TEa, Connectivity Strength: 10.0673829726, FF-FB: FF", 
+   "Comment": "A connection from MG to TEa, Connectivity Strength: 10.0673829726, FF-FB: FB", 
    "FromModule": "MG", 
    "Name": "MG-TEa", 
    "FromPort": "MG-TEa-Output", 
@@ -7553,7 +7521,7 @@
    "ToPort": "MG-TU-Input"
   }, 
   {
-   "Comment": "A connection from MG to VISpor, Connectivity Strength: 0.669790070821, FF-FB: FF", 
+   "Comment": "A connection from MG to VISpor, Connectivity Strength: 0.669790070821, FF-FB: FB", 
    "FromModule": "MG", 
    "Name": "MG-VISpor", 
    "FromPort": "MG-VISpor-Output", 
@@ -8449,7 +8417,7 @@
    "ToPort": "POL-AUDpo-Input"
   }, 
   {
-   "Comment": "A connection from POL to AUDv, Connectivity Strength: 8.20552333532, FF-FB: FF", 
+   "Comment": "A connection from POL to AUDv, Connectivity Strength: 8.20552333532, FF-FB: FB", 
    "FromModule": "POL", 
    "Name": "POL-AUDv", 
    "FromPort": "POL-AUDv-Output", 
@@ -8801,7 +8769,7 @@
    "ToPort": "POL-SUB-Input"
   }, 
   {
-   "Comment": "A connection from POL to TEa, Connectivity Strength: 14.1604561618, FF-FB: FF", 
+   "Comment": "A connection from POL to TEa, Connectivity Strength: 14.1604561618, FF-FB: FB", 
    "FromModule": "POL", 
    "Name": "POL-TEa", 
    "FromPort": "POL-TEa-Output", 
@@ -8921,14 +8889,6 @@
    "ToPort": "ILA-ACB-Input"
   }, 
   {
-   "Comment": "A connection from ILA to AM, Connectivity Strength: 0.311564500156, FF-FB: FF", 
-   "FromModule": "ILA", 
-   "Name": "ILA-AM", 
-   "FromPort": "ILA-AM-Output", 
-   "ToModule": "AM", 
-   "ToPort": "ILA-AM-Input"
-  }, 
-  {
    "Comment": "A connection from ILA to AV, Connectivity Strength: 0.103693851966, FF-FB: FF", 
    "FromModule": "ILA", 
    "Name": "ILA-AV", 
@@ -8993,7 +8953,7 @@
    "ToPort": "ILA-LSr-Input"
   }, 
   {
-   "Comment": "A connection from ILA to MD, Connectivity Strength: 0.567346037107, FF-FB: FF", 
+   "Comment": "A connection from ILA to MD, Connectivity Strength: 0.567346037107, FF-FB: FB", 
    "FromModule": "ILA", 
    "Name": "ILA-MD", 
    "FromPort": "ILA-MD-Output", 
@@ -9689,7 +9649,7 @@
    "ToPort": "ACAd-ACAv-Input"
   }, 
   {
-   "Comment": "A connection from ACAd to AM, Connectivity Strength: 0.526190165593, FF-FB: FF", 
+   "Comment": "A connection from ACAd to AM, Connectivity Strength: 0.526190165593, FF-FB: FB", 
    "FromModule": "ACAd", 
    "Name": "ACAd-AM", 
    "FromPort": "ACAd-AM-Output", 
@@ -9729,7 +9689,7 @@
    "ToPort": "ACAd-LD-Input"
   }, 
   {
-   "Comment": "A connection from ACAd to LP, Connectivity Strength: 0.530815084791, FF-FB: FF", 
+   "Comment": "A connection from ACAd to LP, Connectivity Strength: 0.530815084791, FF-FB: FB", 
    "FromModule": "ACAd", 
    "Name": "ACAd-LP", 
    "FromPort": "ACAd-LP-Output", 
@@ -9873,7 +9833,7 @@
    "ToPort": "ACAd-SSp-bfd-Input"
   }, 
   {
-   "Comment": "A connection from ACAd to VAL, Connectivity Strength: 0.466561814443, FF-FB: FF", 
+   "Comment": "A connection from ACAd to VAL, Connectivity Strength: 0.466561814443, FF-FB: FB", 
    "FromModule": "ACAd", 
    "Name": "ACAd-VAL", 
    "FromPort": "ACAd-VAL-Output", 
@@ -9895,14 +9855,6 @@
    "FromPort": "ACAd-VISp-Output", 
    "ToModule": "VISp", 
    "ToPort": "ACAd-VISp-Input"
-  }, 
-  {
-   "Comment": "A connection from ACAd to VM, Connectivity Strength: 0.428341099827, FF-FB: FF", 
-   "FromModule": "ACAd", 
-   "Name": "ACAd-VM", 
-   "FromPort": "ACAd-VM-Output", 
-   "ToModule": "VM", 
-   "ToPort": "ACAd-VM-Input"
   }, 
   {
    "Comment": "A connection from ACAd to ZI, Connectivity Strength: 1.62850449677, FF-FB: FF", 
@@ -10929,7 +10881,7 @@
    "ToPort": "CL-ACAd-Input"
   }, 
   {
-   "Comment": "A connection from CL to ACAv, Connectivity Strength: 5.8861999658, FF-FB: FF", 
+   "Comment": "A connection from CL to ACAv, Connectivity Strength: 5.8861999658, FF-FB: FB", 
    "FromModule": "CL", 
    "Name": "CL-ACAv", 
    "FromPort": "CL-ACAv-Output", 
@@ -12273,14 +12225,6 @@
    "ToPort": "SSp-bfd-SSs-Input"
   }, 
   {
-   "Comment": "A connection from SSp-bfd to VAL, Connectivity Strength: 0.115554923866, FF-FB: FF", 
-   "FromModule": "SSp-bfd", 
-   "Name": "SSp-bfd-VAL", 
-   "FromPort": "SSp-bfd-VAL-Output", 
-   "ToModule": "VAL", 
-   "ToPort": "SSp-bfd-VAL-Input"
-  }, 
-  {
    "Comment": "A connection from SSp-bfd to VPL, Connectivity Strength: 0.106448412641, FF-FB: FF", 
    "FromModule": "SSp-bfd", 
    "Name": "SSp-bfd-VPL", 
@@ -12353,7 +12297,7 @@
    "ToPort": "LP-APN-Input"
   }, 
   {
-   "Comment": "A connection from LP to AUDd, Connectivity Strength: 1.18131863241, FF-FB: FF", 
+   "Comment": "A connection from LP to AUDd, Connectivity Strength: 1.18131863241, FF-FB: FB", 
    "FromModule": "LP", 
    "Name": "LP-AUDd", 
    "FromPort": "LP-AUDd-Output", 
@@ -12369,7 +12313,7 @@
    "ToPort": "LP-AUDp-Input"
   }, 
   {
-   "Comment": "A connection from LP to AUDpo, Connectivity Strength: 0.750458556918, FF-FB: FF", 
+   "Comment": "A connection from LP to AUDpo, Connectivity Strength: 0.750458556918, FF-FB: FB", 
    "FromModule": "LP", 
    "Name": "LP-AUDpo", 
    "FromPort": "LP-AUDpo-Output", 
@@ -12377,7 +12321,7 @@
    "ToPort": "LP-AUDpo-Input"
   }, 
   {
-   "Comment": "A connection from LP to AUDv, Connectivity Strength: 0.583049371743, FF-FB: FF", 
+   "Comment": "A connection from LP to AUDv, Connectivity Strength: 0.583049371743, FF-FB: FB", 
    "FromModule": "LP", 
    "Name": "LP-AUDv", 
    "FromPort": "LP-AUDv-Output", 
@@ -12401,7 +12345,7 @@
    "ToPort": "LP-CP-Input"
   }, 
   {
-   "Comment": "A connection from LP to ECT, Connectivity Strength: 0.515967895698, FF-FB: FF", 
+   "Comment": "A connection from LP to ECT, Connectivity Strength: 0.515967895698, FF-FB: FB", 
    "FromModule": "LP", 
    "Name": "LP-ECT", 
    "FromPort": "LP-ECT-Output", 
@@ -12425,7 +12369,7 @@
    "ToPort": "LP-MD-Input"
   }, 
   {
-   "Comment": "A connection from LP to MOs, Connectivity Strength: 1.18865252026, FF-FB: FF", 
+   "Comment": "A connection from LP to MOs, Connectivity Strength: 1.18865252026, FF-FB: FB", 
    "FromModule": "LP", 
    "Name": "LP-MOs", 
    "FromPort": "LP-MOs-Output", 
@@ -12561,7 +12505,7 @@
    "ToPort": "LP-SSs-Input"
   }, 
   {
-   "Comment": "A connection from LP to TEa, Connectivity Strength: 2.59149046498, FF-FB: FF", 
+   "Comment": "A connection from LP to TEa, Connectivity Strength: 2.59149046498, FF-FB: FB", 
    "FromModule": "LP", 
    "Name": "LP-TEa", 
    "FromPort": "LP-TEa-Output", 
@@ -12585,7 +12529,7 @@
    "ToPort": "LP-VISC-Input"
   }, 
   {
-   "Comment": "A connection from LP to VISa, Connectivity Strength: 0.504616968869, FF-FB: FF", 
+   "Comment": "A connection from LP to VISa, Connectivity Strength: 0.504616968869, FF-FB: FB", 
    "FromModule": "LP", 
    "Name": "LP-VISa", 
    "FromPort": "LP-VISa-Output", 
@@ -12625,7 +12569,7 @@
    "ToPort": "LP-VISpl-Input"
   }, 
   {
-   "Comment": "A connection from LP to VISpor, Connectivity Strength: 0.701963997698, FF-FB: FF", 
+   "Comment": "A connection from LP to VISpor, Connectivity Strength: 0.701963997698, FF-FB: FB", 
    "FromModule": "LP", 
    "Name": "LP-VISpor", 
    "FromPort": "LP-VISpor-Output", 
@@ -13089,7 +13033,7 @@
    "ToPort": "VISrl-LGv-Input"
   }, 
   {
-   "Comment": "A connection from VISrl to LP, Connectivity Strength: 1.15137832526, FF-FB: FF", 
+   "Comment": "A connection from VISrl to LP, Connectivity Strength: 1.15137832526, FF-FB: FB", 
    "FromModule": "VISrl", 
    "Name": "VISrl-LP", 
    "FromPort": "VISrl-LP-Output", 
@@ -13681,7 +13625,7 @@
    "ToPort": "LD-PRE-Input"
   }, 
   {
-   "Comment": "A connection from LD to RSPagl, Connectivity Strength: 0.633364539565, FF-FB: FF", 
+   "Comment": "A connection from LD to RSPagl, Connectivity Strength: 0.633364539565, FF-FB: FB", 
    "FromModule": "LD", 
    "Name": "LD-RSPagl", 
    "FromPort": "LD-RSPagl-Output", 
@@ -13689,7 +13633,7 @@
    "ToPort": "LD-RSPagl-Input"
   }, 
   {
-   "Comment": "A connection from LD to RSPd, Connectivity Strength: 1.61801639748, FF-FB: FF", 
+   "Comment": "A connection from LD to RSPd, Connectivity Strength: 1.61801639748, FF-FB: FB", 
    "FromModule": "LD", 
    "Name": "LD-RSPd", 
    "FromPort": "LD-RSPd-Output", 
@@ -13697,7 +13641,7 @@
    "ToPort": "LD-RSPd-Input"
   }, 
   {
-   "Comment": "A connection from LD to RSPv, Connectivity Strength: 1.52389245718, FF-FB: FF", 
+   "Comment": "A connection from LD to RSPv, Connectivity Strength: 1.52389245718, FF-FB: FB", 
    "FromModule": "LD", 
    "Name": "LD-RSPv", 
    "FromPort": "LD-RSPv-Output", 
@@ -17196,7 +17140,7 @@
  "Header": {
   "Base": "1.0", 
   "Type": "A", 
-  "Name": "output"
+  "Name": "wbca_cajal"
  }, 
  "Modules": [
   {
@@ -17930,12 +17874,9 @@
     "VAL-VM-Output", 
     "VAL-VPL-Output", 
     "SMT-VAL-Input", 
-    "SSp-ul-VAL-Input", 
-    "ORBl-VAL-Input", 
     "GPi-VAL-Input", 
     "NPC-VAL-Input", 
     "SSp-tr-VAL-Input", 
-    "VISal-VAL-Input", 
     "VISam-VAL-Input", 
     "PGRNd-VAL-Input", 
     "PL-VAL-Input", 
@@ -17948,7 +17889,6 @@
     "ACAd-VAL-Input", 
     "CL-VAL-Input", 
     "SPA-VAL-Input", 
-    "SSp-bfd-VAL-Input", 
     "SPFm-VAL-Input", 
     "AD-VAL-Input", 
     "ORBvl-VAL-Input", 
@@ -17991,7 +17931,6 @@
     "SSp-ul-SSp-ul-Output", 
     "SSp-ul-SSp-ul-Input", 
     "SSp-ul-SSs-Output", 
-    "SSp-ul-VAL-Output", 
     "SSp-ul-VPL-Output", 
     "SSp-ul-VPM-Output", 
     "VPL-SSp-ul-Input", 
@@ -18109,8 +18048,6 @@
     "ORBl-PO-Output", 
     "ORBl-RT-Output", 
     "ORBl-SMT-Output", 
-    "ORBl-VAL-Output", 
-    "ORBl-VM-Output", 
     "VM-ORBl-Input", 
     "MD-ORBl-Input", 
     "MH-ORBl-Input", 
@@ -18641,7 +18578,6 @@
     "VISal-SSs-Output", 
     "VISal-SubG-Output", 
     "VISal-TEa-Output", 
-    "VISal-VAL-Output", 
     "VISal-VISa-Output", 
     "VISal-VISal-Output", 
     "VISal-VISal-Input", 
@@ -20012,7 +19948,6 @@
     "ILA-ACAd-Output", 
     "ILA-ACAv-Output", 
     "ILA-ACB-Output", 
-    "ILA-AM-Output", 
     "ILA-AV-Output", 
     "ILA-CP-Output", 
     "ILA-ILA-Output", 
@@ -20420,7 +20355,6 @@
     "ACAd-VAL-Output", 
     "ACAd-VISam-Output", 
     "ACAd-VISp-Output", 
-    "ACAd-VM-Output", 
     "ACAd-ZI-Output", 
     "CL-ACAd-Input", 
     "CLA-ACAd-Input", 
@@ -21271,7 +21205,6 @@
     "SSp-bfd-SSp-bfd-Output", 
     "SSp-bfd-SSp-bfd-Input", 
     "SSp-bfd-SSs-Output", 
-    "SSp-bfd-VAL-Output", 
     "SSp-bfd-VPL-Output", 
     "SSp-bfd-VPM-Output", 
     "LP-SSp-bfd-Input", 
@@ -22286,7 +22219,6 @@
     "SUB-AM-Input", 
     "MD-AM-Input", 
     "MM-AM-Input", 
-    "ILA-AM-Input", 
     "SUM-AM-Input", 
     "ACAd-AM-Input", 
     "PVT-AM-Input", 
@@ -22334,7 +22266,6 @@
     "VAL-VM-Input", 
     "GU-VM-Input", 
     "SMT-VM-Input", 
-    "ORBl-VM-Input", 
     "GPi-VM-Input", 
     "NPC-VM-Input", 
     "SBPV-VM-Input", 
@@ -22398,7 +22329,6 @@
     "ILA-VM-Input", 
     "POST-VM-Input", 
     "NI-VM-Input", 
-    "ACAd-VM-Input", 
     "CLA-VM-Input", 
     "SPA-VM-Input", 
     "CM-VM-Input", 
@@ -27926,24 +27856,6 @@
    "Module": "SSs"
   }, 
   {
-   "Comment": "An output port of SSp-ul for connection to VAL", 
-   "Shape": [
-    1582
-   ], 
-   "Type": "Output", 
-   "Name": "SSp-ul-VAL-Output", 
-   "Module": "SSp-ul"
-  }, 
-  {
-   "Comment": "An input port of VAL for connection from SSp-ul", 
-   "Shape": [
-    1582
-   ], 
-   "Type": "Input", 
-   "Name": "SSp-ul-VAL-Input", 
-   "Module": "VAL"
-  }, 
-  {
    "Comment": "An output port of SSp-ul for connection to VPL", 
    "Shape": [
     2810
@@ -28392,42 +28304,6 @@
    "Type": "Input", 
    "Name": "ORBl-SMT-Input", 
    "Module": "SMT"
-  }, 
-  {
-   "Comment": "An output port of ORBl for connection to VAL", 
-   "Shape": [
-    1341
-   ], 
-   "Type": "Output", 
-   "Name": "ORBl-VAL-Output", 
-   "Module": "ORBl"
-  }, 
-  {
-   "Comment": "An input port of VAL for connection from ORBl", 
-   "Shape": [
-    1341
-   ], 
-   "Type": "Input", 
-   "Name": "ORBl-VAL-Input", 
-   "Module": "VAL"
-  }, 
-  {
-   "Comment": "An output port of ORBl for connection to VM", 
-   "Shape": [
-    2493
-   ], 
-   "Type": "Output", 
-   "Name": "ORBl-VM-Output", 
-   "Module": "ORBl"
-  }, 
-  {
-   "Comment": "An input port of VM for connection from ORBl", 
-   "Shape": [
-    2493
-   ], 
-   "Type": "Input", 
-   "Name": "ORBl-VM-Input", 
-   "Module": "VM"
   }, 
   {
    "Comment": "An output port of VPL for connection to AId", 
@@ -32280,24 +32156,6 @@
    "Type": "Input", 
    "Name": "VISal-TEa-Input", 
    "Module": "TEa"
-  }, 
-  {
-   "Comment": "An output port of VISal for connection to VAL", 
-   "Shape": [
-    103
-   ], 
-   "Type": "Output", 
-   "Name": "VISal-VAL-Output", 
-   "Module": "VISal"
-  }, 
-  {
-   "Comment": "An input port of VAL for connection from VISal", 
-   "Shape": [
-    103
-   ], 
-   "Type": "Input", 
-   "Name": "VISal-VAL-Input", 
-   "Module": "VAL"
   }, 
   {
    "Comment": "An output port of VISal for connection to VISa", 
@@ -42992,24 +42850,6 @@
    "Module": "ACB"
   }, 
   {
-   "Comment": "An output port of ILA for connection to AM", 
-   "Shape": [
-    470
-   ], 
-   "Type": "Output", 
-   "Name": "ILA-AM-Output", 
-   "Module": "ILA"
-  }, 
-  {
-   "Comment": "An input port of AM for connection from ILA", 
-   "Shape": [
-    470
-   ], 
-   "Type": "Input", 
-   "Name": "ILA-AM-Input", 
-   "Module": "AM"
-  }, 
-  {
    "Comment": "An output port of ILA for connection to AV", 
    "Shape": [
     156
@@ -45186,24 +45026,6 @@
    "Type": "Input", 
    "Name": "ACAd-VISp-Input", 
    "Module": "VISp"
-  }, 
-  {
-   "Comment": "An output port of ACAd for connection to VM", 
-   "Shape": [
-    1303
-   ], 
-   "Type": "Output", 
-   "Name": "ACAd-VM-Output", 
-   "Module": "ACAd"
-  }, 
-  {
-   "Comment": "An input port of VM for connection from ACAd", 
-   "Shape": [
-    1303
-   ], 
-   "Type": "Input", 
-   "Name": "ACAd-VM-Input", 
-   "Module": "VM"
   }, 
   {
    "Comment": "An output port of ACAd for connection to ZI", 
@@ -50532,24 +50354,6 @@
    "Type": "Input", 
    "Name": "SSp-bfd-SSs-Input", 
    "Module": "SSs"
-  }, 
-  {
-   "Comment": "An output port of SSp-bfd for connection to VAL", 
-   "Shape": [
-    2195
-   ], 
-   "Type": "Output", 
-   "Name": "SSp-bfd-VAL-Output", 
-   "Module": "SSp-bfd"
-  }, 
-  {
-   "Comment": "An input port of VAL for connection from SSp-bfd", 
-   "Shape": [
-    2195
-   ], 
-   "Type": "Input", 
-   "Name": "SSp-bfd-VAL-Input", 
-   "Module": "VAL"
   }, 
   {
    "Comment": "An output port of SSp-bfd for connection to VPL", 
