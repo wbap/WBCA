@@ -4,20 +4,18 @@
 """
 table2brical.py
 =====
+
 This module contains the class `Table2BriCAL` which converts table files
 describing connectome into a BriCA language JSON file.
+
 Changes made are as follows:
 "__init__": Added some initial lists and dictionary for making port sizes
-            Added acronyms of thalamus # added by hayami
 "loadHierarchy": Added codes to import source and target lists and ports
 "build": Changed var to abs(var)
          Added and imported port sizes
-         Added thresholds of thalamus # added by hayami
-"removeModules": Created to remove modules do not have any ports including super modules # added by hayami
 "createPort": Imports port sizes into "Shape"
 "createConnection": Added connectivity strengths as conn in a parameter and ff/fb
                     as ff_fb to distinguish by a negative or a positive number in Comment section
-"main": Added thresholds of thalamus # added by hayami
 """
 
 import sys
@@ -43,10 +41,7 @@ class Table2BriCAL:
         self.temp_source=[]
         self.temp_target=[]
         self.temp_port={}
-        self.thalamus = ['VAL','VM','VPL','VPLpc','VPM','VPMpc','SPFm','SPFp','SPA',
-                         'PP','MG','LGd','LP','PO','POL','SGN','AV','AM','AD',
-                         'IAM','IAD','LD','IMD','MD','SMT','PR','PVT','PT','RE','RH','CM','PCN'
-                         'CL','PF','RT','IGL','LGv','SubG','MH','LH']
+        # self.temp_ports=[]
 
     def loadConnection(self, path):
         heading = True
@@ -100,48 +95,15 @@ class Table2BriCAL:
                     p_size = float(p_sizes[i])
                 except:
                     print("Cannot convert item " + str(i) + ":'" + items[i] + "' for id:" + id + ".")
-
-                targetID = self.headItems[i]
-                targetName = self.modules[targetID]["Name"]
-                originModule = self.modules[id]
-                targetModule = self.modules[targetID]
-                if originName in self.thalamus or targetName in self.thalamus:
-                    if var >= threshold[1]:
-                        self.createPort("Output", originModule, originName, targetName, p_size)
-                        self.createPort("Input", targetModule, originName, targetName, p_size)
-                        self.createConnection(id, targetID, var)
-
-                    elif var <= - threshold[2]:
-                        self.createPort("Output", originModule, originName, targetName, p_size)
-                        self.createPort("Input", targetModule, originName, targetName, p_size)
-                        self.createConnection(id, targetID, var)
-
-                else:
-                    if abs(var) >= threshold[0]:
-                        self.createPort("Output", originModule, originName, targetName, p_size)
-                        self.createPort("Input", targetModule, originName, targetName, p_size)
-                        self.createConnection(id, targetID, var)
+                if abs(var) >= threshold:
+                    targetID = self.headItems[i]
+                    targetName = self.modules[targetID]["Name"]
+                    originModule = self.modules[id]
+                    self.createPort("Output", originModule, originName, targetName, p_size)
+                    targetModule = self.modules[targetID]
+                    self.createPort("Input", targetModule, originName, targetName, p_size)
+                    self.createConnection(id, targetID, var)
         self.addHierarchyToModules()
-        self.removeModules()
-
-    def removeModules(self):
-        for id in self.connection:
-            if self.superModules.has_key(id): # if subregion
-                if not self.modules[id].has_key("Ports"): # have any port
-                    self.modules[self.modules[id]["SuperModule"]]['SubModules'].remove(id)
-                    del(self.modules[id])
-                    for port in self.ports:
-                        if port["Module"] == id:
-                            self.ports.remove(port)
-                    for connection in self.connections:
-                        if connection["FromModule"] == id or connection["ToModule"] == id:
-                            self.connections.remove(connection)
-        for subModule in self.subModules:
-            del(self.modules[subModule])
-
-        for module in self.modules:
-            del(self.modules[module]["SuperModule"])
-
 
     def createPort(self, type, module, origin, target, size):
         portName = self.alterModuleName(origin) + "-" + self.alterModuleName(target) + "-" + type
@@ -155,14 +117,14 @@ class Table2BriCAL:
         port["Name"] = portName
         port["Module"] = module["Name"]
         port["Type"] = type
-        port["Shape"] = [int(round(size))]
+        port["Shape"] = [round(size)]
         if type == "Input":
             port["Comment"] = "An input port of " + target + " for connection from " + origin
         else:
             port["Comment"] = "An output port of " + origin + " for connection to " + target
         self.ports.append(port)
 
-    def createConnection(self, originID, targetID, conn):
+    def createConnection(self, originID, targetID, conn): 
         originName = self.modules[originID]["Name"]
         targetName = self.modules[targetID]["Name"]
         connection = {}
@@ -230,11 +192,11 @@ class Table2BriCAL:
         fp.close()
 
 if __name__ == '__main__':
-    if len(sys.argv)!=9:
-        print('Usage: table2brical.py connection.txt regions.txt hierarchy.txt output.json prefix threshold_isocortex threshold_thalamus_ff threshold_thalamus_fb')
+    if len(sys.argv)!=7:
+        print('Usage: table2brical.py connection.txt regions.txt hierarchy.txt output.json prefix threshold')
         quit()
     params = sys.argv
-    threshold = [float(params[6]),float(params[7]),float(params[8])]
+    threshold = float(params[6])
     t2b = Table2BriCAL()
     t2b.loadConnection(params[1])
     t2b.loadRegions(params[2])
