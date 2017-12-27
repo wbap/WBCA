@@ -1,6 +1,6 @@
 # Creating your own WBCA
 
-Our main product is “wbca_cajal.json” as the first version of WBCA. However, you have another option that you can use the codes placed here to modify and improve our WBCA, and re-create and re-build a WBCA for your own purpose.
+Our main product is “wbca_cajal.json” in Release folder as the first version of WBCA. However, you have another option that you can use the codes placed here to modify and improve our WBCA, and re-create and re-build a WBCA for your own purpose.
 
 ### Connection Matrix and Port Size
 First, after downloading the WBCA from Github, cd into the Codes file and run the two commands below.
