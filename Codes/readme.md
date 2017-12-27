@@ -1,9 +1,9 @@
-### Creating your own WBCA
+# Creating your own WBCA
 
 Our main product is “wbca_cajal.json” as the first version of WBCA. However, you have another option that you can use the codes placed here to modify and improve our WBCA, and re-create and re-build a WBCA for your own purpose.
 
-### Connection matrix and Port size
-First, after downloading the WBCA from Github, cd into the codes file and run the two commands below.
+### Connection Matrix and Port Size
+First, after downloading the WBCA from Github, cd into the Codes file and run the two commands below.
 
 ```text
 python conn.py
@@ -13,12 +13,12 @@ python portsize.py
 ```
 
 Running these two commands will create files that are later going to be used to create a JSON file and a block diagram.
-The files shown inside the  green stripe in the figure below indicates that they are directly drawn from the Allen Brain Atlas website and are stored in the raw data folder.
+The files shown inside the  green stripe in the figure below indicates that they are directly drawn from the Allen Brain Atlas website and are stored in the DataAnalysis folder.
 
 <img width="920" alt="screen shot 2017-12-25 at 14 58 14" src="https://user-images.githubusercontent.com/32238693/34351493-5462fb82-ea60-11e7-8c16-f896df319048.png">
 
 ### JSON (WBCA)
-Run table2brical.py (python2.7) to get modules for BriCA. But in prior to doing so, check to see that you have prepared a total of three text files, namely connection.txt, regions.txt, and hierarchy.txt. In brief, connection.txt has a matrix consists of sources in the first column (index) and targets in the first row (header) with corresponding connectivity strengths. regions.txt has acronyms in the first and second columns and corresponding safe name in the third and fourth columns. The first and second columns have totally same acronyms in it. Same for the third and fourth columns. Lastly, hierarchy.txt has acronyms in the first column and corresponding parent-region in the second column. From the third column, it is similar to the matrix shown in the connection.txt that the third column has sources and the first row from the third column shows targets. The only difference is the values in the matrix which has a number of port-size instead of connectivity strength. Texts inside the text files are separated by tabs instead of the comma. After having these files ready, run the table2brical.py using the text files.
+Run table2brical.py (python2.7) to get modules for BriCA. But in prior to doing so, check to see that you have prepared a total of three text files, namely connection.txt, regions.txt, and hierarchy.txt. In brief, connection.txt has a matrix consists of sources in the first column (index) and targets in the first row (header) with corresponding connectivity strengths. regions.txt has acronyms in the first and second columns and corresponding safe name in the third and fourth columns. The first and second columns have exactly the same acronyms in it. Same for the third and fourth columns. Lastly, hierarchy.txt has acronyms in the first column and corresponding major region in the second column. From the third column, it is similar to the matrix shown in the connection.txt that the third column has sources and the first row from the third column shows targets. The only difference is the values in the matrix which have numbers of port size instead of connectivity strength. Texts inside the text files are separated by tabs instead of the comma. After having these files ready, run the table2brical.py using the text files.
 
 ```text
 python table2brical.py connection.txt regions.txt hierarchy.txt output.json prefix threshold_isocortex threshold_thalamus_ff threshold_thalamus_fb
