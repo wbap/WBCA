@@ -20,9 +20,9 @@ This repository has 4 directories, “WBCA”, “Codes”, “DataAnalysis” a
 
 ### Precaution, Reliability, Issues & Application Coverage
 
-This is still under development, the product here is not functional as an artificial intelligence system. This initial version of the WBCA is possibly only applicable for implementing into a brain like simulation. Currently, no machine learning modules included with WBCA to exert cognitive functions. 
+This is still under development, the product here is not functional as an artificial intelligence system. This initial version of the WBCA is possibly only applicable for implementing into a brain-like simulation. Currently, no machine learning modules included with WBCA to exert cognitive functions. 
 
-### Why do we release of WBCA ver. 1.0 : Cajal?
+### Why do we release WBCA ver. 1.0 : Cajal?
 
 ・To be reviewed by professionals from the field of machine learning and neuroscience  
 ・To broaden our views through public dialogue  
@@ -31,13 +31,13 @@ This is still under development, the product here is not functional as an artifi
 
 ### Contributors
 
-haruom
-skyair55
-businy
-Hiroto Tamura
-rinkom
-rondelion
-hymkw
+haruom  
+skyair55  
+businy  
+Hiroto Tamura  
+rinkom  
+rondelion  
+hymkw  
 
 ## License
 copied from Allen Brain Atlas website
