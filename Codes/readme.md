@@ -35,13 +35,15 @@ Inside the JSON file, the FF/FB and the connection strength are described under 
 
 ### Block Diagram
 
-Finally, create a constrained block diagram using mermaid.js from JavaScript, which is a simple description of the neural wiring diagram . Running blockCreator.mmd as written below will allow you to save a block diagram as a .png file. However, you might not be able to get a clean block diagram because mermaid.js still has some bugs in it. The results of FF/FB connections found from the block diagram depicts the same findings from a previous paper ([*Berezovskii et al., J. Comp. Neurol. 519:3672–3683 (2011)*](http://onlinelibrary.wiley.com/doi/10.1002/cne.22675/abstract)), particularly with the part of visual pathways in the lower level hierarchy.
+Finally, create a constrained block diagram using mermaid.js from JavaScript, which is a simple description of the neural wiring diagram. Running blockCreator.mmd as written below will allow you to save a block diagram as a .png file. However, you might not be able to get a clean block diagram because mermaid.js still has some bugs in it. The results of FF/FB connections found from the block diagram depicts the same findings from a previous paper ([*Berezovskii et al., J. Comp. Neurol. 519:3672–3683 (2011)*](http://onlinelibrary.wiley.com/doi/10.1002/cne.22675/abstract)), particularly with the part of visual pathways in the lower level hierarchy.
 
 
 ```text
 mmdc -i blockCreator.mmd -o output.png -b transparent -w 1500 -H 1000
 ```
 
-If you run the blockCreator.mmd command shown above, the output will look something like this. (Make sure you cd into the Wiring Diagram Folder before running the blockCreator.mmd command.) The image shows a wiring diagram of FF/FB connections when the threshold of connectivity strength in isocortex is 0.843.
+If you run the blockCreator.mmd command shown above, the output will look something like this.   
+(Make sure you cd into the BlockDiagram folder before running the blockCreator.mmd command.)  
+The image shows a wiring diagram of FF/FB connections when the threshold of connectivity strength in isocortex is 0.843.
 
 ![output_threshold0 843](https://user-images.githubusercontent.com/32238693/34351545-ab5f80fe-ea60-11e7-864f-0294305ba15f.png)
