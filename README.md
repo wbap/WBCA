@@ -61,3 +61,8 @@ The Allen Institute provides a software development kit, the Allen Brain Atlas S
 
 ![image_dfd](https://user-images.githubusercontent.com/32238693/34351451-1d16a16a-ea60-11e7-95c5-e41e2f128c24.png)
 
+## References
+1. [Allen SDK (2015)](http://alleninstitute.github.io/AllenSDK/)
+2. [Oh et al., Nature 508:207-14 (2014)](https://www.nature.com/articles/nature13186)
+3. [Berezovskii et al., J. Comp. Neurol. 519:3672–3683 (2011)](http://onlinelibrary.wiley.com/doi/10.1002/cne.22675/abstract)
+
