@@ -2,7 +2,7 @@
 
 ## What is WBCA?
 
-Whole Brain Connectomic Architecture (WBCA) is static and schematic [*WBA*](http://wba-initiative.org/en/wba/), which is a good candidate to build up artificial general intelligence (AGI), based on biological connectomes, wiring diagram of the brain. AGI development would become more efficient by constraining connections among machine learning modules with connectomic information rather than applying the architectures developers build by their own ways. We have released our ongoing prototype of the WBCA resulting from our analysis for the future implementation.
+Whole Brain Connectomic Architecture (WBCA) is static and schematic [*WBA*](http://wba-initiative.org/en/wba/), which is a good candidate to build up artificial general intelligence (AGI), based on biological connectomes, or wiring diagram of the brain. AGI development would become more efficient by constraining connections among machine learning modules with connectomic information rather than applying the architectures developers build by their own ways. We have released our ongoing prototype of the WBCA resulting from our analysis for the future implementation.
 
 *****
 ### Repository contents
