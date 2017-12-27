@@ -7,7 +7,7 @@ Whole Brain Connectomic Architecture (WBCA) is static and schematic [*WBA*](http
 *****
 ### Repository contents
 
-This repository has 4 directories, “Release”, “Codes”, “DataAnalysis” and “BlockDiagram”. “Release” directory includes the current version of WBCA (WBCA_ver.xxx.json), which is the main product of this development project. “Codes” has all algorithms we developed for data analysis and representation. “DataAnalysis” consists of original raw data from Allen Institute for Brain Science, and analytical results processed by our algorithms. BlockDiagram has input and output files for mermaid.js (written by JavaScript) to illustrate a block diagram of the whole brain architecture.
+This repository has 4 directories, “Release”, “Codes”, “DataAnalysis” and “BlockDiagram”. “Release” directory includes the current version of WBCA (WBCA_version.json), which is the main product of this development project. “Codes” has all algorithms we developed for data analysis and representation. “DataAnalysis” consists of original raw data from Allen Institute for Brain Science, and analytical results processed by our algorithms. BlockDiagram has input and output files for mermaid.js (written by JavaScript) to illustrate a block diagram of the whole brain architecture.
 
 ### System Requirement
 
