@@ -19,7 +19,7 @@ This repository has 4 directories, “Release”, “Codes”, “DataAnalysis�
 
 ### Precaution, Reliability, Issues & Application Coverage
 
-This is still under development, the product here is not functional as an artificial intelligence system. This initial version of the WBCA is possibly only applicable for implementing into a brain-like simulation. Currently, no machine learning modules included with WBCA to exert cognitive functions. 
+This is still under development, the main product is neither executable nor functional as an artificial intelligence system. This initial version of the WBCA is possibly only applicable for implementing into a brain-like simulation. Currently, no machine learning modules included with WBCA to exert cognitive functions. 
 
 ### Why do we release WBCA ver. 1.0 : Cajal?
 
