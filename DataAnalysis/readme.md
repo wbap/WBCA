@@ -59,7 +59,7 @@ We obtained the volume (the number of voxels) of each of the regions as well as 
 The code for obtaining the number of voxels for each region and major region from the SDK is kept in the codes folder in a file called voxel_sdk.py.
 
 ##### Number of neurons in each brain region and major region
-We utilized the numbers indicating the number of neurons in each major regions that Ryuichi Ueda, director of CIT autonomous robots lab, has provided to us, and obtained the number of neurons in each region of the brain. Note that this is possible from examining the ratio of voxels and the number of neurons in both regions and major regions of the brain.
+We utilized the numbers indicating the number of neurons in each major regions that a professional who works on brain imaging with cellular resolution, has provided to us, and obtained the number of neurons in each region of the brain. Note that this is possible from examining the ratio of voxels and the number of neurons in both regions and major regions of the brain.
 
 ##### Computing Port Size
 As previously stated in the Associated Technology and Terminology section, we defined port size to be the sheer number of neurons that travels from one region, S, to the other region, T. (e.g. ViSp → VISl). In order to compute the port size, we decided to take into account the number of neurons in S, the connectivity strength(CS) from S to T, and the aggregate connectivity strength from S to the other regions. The equation is as follows.
