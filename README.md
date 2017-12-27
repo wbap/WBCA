@@ -13,10 +13,6 @@ This repository has 4 directories, “Release”, “Codes”, “DataAnalysis�
 
 ・Python 2.7
 
-### Version
-
-1.0, Cajal: Whole brain connectivity and their strengths and the feedforward and feedback information flow of cortico-cortical pathways and thalamo-cortical pathways. Released on December 28, 2017
-
 ### Precaution, Reliability, Issues & Application Coverage
 
 The main product is neither executable nor functional as an artificial intelligence system. It is still under development, currently, no machine learning modules included with WBCA to exert cognitive functions. This initial version of the WBCA is possibly only applicable for implementing into a brain-like simulation. 
