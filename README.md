@@ -5,7 +5,7 @@
 Whole Brain Connectomic Architecture (WBCA) is static and schematic [*WBA*](http://wba-initiative.org/en/wba/), which is a good candidate to build up artificial general intelligence (AGI), based on biological connectomes, or wiring diagrams of the brain. AGI development would become more efficient by constraining connections among machine learning modules with connectomic information rather than applying the architectures developers build by their own ways. We have released our ongoing prototype of the WBCA resulting from our analysis for the future implementation.
 
 *****
-### Repository contents
+### Contents
 
 This repository has 4 directories, “Release”, “Codes”, “DataAnalysis” and “BlockDiagram”. “Release” directory includes the current version of WBCA (wbca_version.json), which is the main product of this development project. “Codes” has all algorithms we developed for data analysis and representation. “DataAnalysis” consists of original raw data from Allen Institute for Brain Science, and analytical results processed by our algorithms. BlockDiagram has input and output files for mermaid.js (written by JavaScript) to illustrate a block diagram of the whole brain architecture.
 
