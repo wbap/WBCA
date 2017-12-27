@@ -1,6 +1,6 @@
 # Data Analysis
 
-### Project overview
+## Project Overview
 
 The mechanisms of information processing in the neocortex underlie brain functions based on the hierarchy of individual cortical areas. This study was focused on the determination of the neocortical hierarchy resulting from a clustering analysis of connectomic morphology with cortical layer resolution. K-means clustering effectively classified connectivities into two groups, feedforward group and feedback group. And then the description of the neocortical hierarchy was simplified to a wiring diagram to understand how sensory information flows in the biological neural networks. In this initial work, the validity of the resulting classification is still uncertain to describe the hierarchical relationships in the neocortex. However, it enables us to apply this structure as a fundamental of computational study on neural circuits to simulate brain functions, and it eventually can apply to our cognitive architecture “Whole Brain Architecture (WBA)” to develop an artificial intelligent system, which will allow us to test the success of these classifications whether it is mimicking particular brain functions in machine learning modules.
 
@@ -13,30 +13,30 @@ The connectivity strength between brain areas were calculated based on the datas
 
 ### **Feedforward/Feedback (FF/FB) Analysis**
 
-We tried to determine the information flow with feedforward (FF) and feedback (FB) in the part of mature cerebral cortex (neocortex, isocortex) by utilizing a dimension reduction and a clustering method. In this FF/FB diagram, we ignore weaker neural connections under the threshold to make it to be directed acyclic graph (DAG). 
+We tried to determine the information flow with feedforward (FF) and feedback (FB) in the part of mature cerebral cortex (neocortex, isocortex) by utilizing a dimension reduction and a clustering method. In this FF/FB diagram, we ignore weaker neural connections under the threshold so that the diagram becomes a directed acyclic graph (DAG). 
 
-##### Principal Component Analysis (PCA)
+#### Principal Component Analysis (PCA)
 
-###### Pathways in isocortex areas  
+##### Pathways in isocortex areas  
 
 Dimensionality reduction was applied to connectivity strengths from 1st to 6th layers in isocortex areas. At this point, we just chose visual and auditory areas to analyze using PCA since those two specific areas have more researches done in the past compared to other regions. Through PCA in visual areas, the primary ingredient covered 96% of contribution ratio, and cumulative contribution ratio including secondary ingredient was 98%; thus, we kept only the primary and secondary ingredients after reduction. While classifying FF/FB using PCA, it appears that 6a, 5, 2/3, and 1 layers were playing vital roles. Almost identical results were taken from the PCA in auditory areas, and so, we kept reduction within the secondary ingredient. 6a, 5 and 2/3 layers were giving important information in auditory areas during classification. It seems like FF and FB have been comparatively separated into clear results through PCA in both visual and auditory areas.
 
-###### Pathways from thalamus to isocortex  
+##### Pathways from thalamus to isocortex  
 
 In addition to the previous analysis of the pathways in isocortex, the same analysis was applied to the ones from thalamus to isocortex. Cumulative contribution ratio until secondary component was slightly lower than the pathways in isocortex(91%) but primary and secondary component accounted for a large percent of all cumulative contribution ratio. 5, 6a and 2/3 layers had relatively large effects on this PCA classifying. 
 
 
-##### Clustering Analysis  
+#### Clustering Analysis  
 
-###### Isocortex direct pathways  
+##### Isocortex direct pathways  
 
 Since we only had 6 x 1638 of data in our hands, we used clustering analysis instead of the classifier as a classification method because the amount of the data was insufficient to run classifier. The average connectivity method aforementioned was used with K-means clustering, which is one of the most famous clustering methods, on these connectivity strengths. In order to examine correspondence between PCA and clustering results, we plotted K-means (where K=2) results on 2-dimensional PCA graph. The first principal component was dominant with layer 6a. The result of the clustering analysis using K-means (where K=2) depicted more FF than FB, namely 1566 to 72 in ratio, respectively; however, the strengths in FB have stronger connectivity strengths. 
 
-###### Thalamo-cortical indirect pathways  
+##### Thalamo-cortical indirect pathways  
 
 Aforementioned clustering analysis was conducted on the pathways from thalamus to isocortex, and the results were mapped on 2-dimensional PCA chart. Contrary to the result of isocortex areas, the number of FB is far more than FF, specifically 1376 and 22 respectively. We could not assign FF/FB of the pathways from isocortex regions to thalamus because this clustering analysis needs layer-wise connectivity strength; thus, FF/FB of the pathways from thalamus to isocortex were alloted to them. Moreover, to avoid the network complexity, FF/FB of thalamo-cortical indirect pathways were matched to those of the isocortex direct pathways. 
 
-### Determination of Threshold on connectivity strengths
+### Determination of Threshold on Connectivity Strengths
 
 A threshold on connectivity strengths was implemented for better looking and understanding purposes on the wiring diagram. We tried two different methods for finding an appropriate lower limit. One way is calculating an average connectivity using connectivity strengths among isocortex for the threshold. Another way is to find power law of connectivity strengths among isocortex and retained the top 20%, corresponding to connectivity strengths above 0.282252. These regions mostly showed FB flows among visual areas, indicating that the most connected visual areas are typically FB. However, because of the resulting scarcity of FF connections, we decided to use the average method instead of the power-law method in order to create a comprehensive wiring diagram.  
 
@@ -49,19 +49,19 @@ The wiring diagram we estimated in this study would serve as a structure of biol
 
 ### **Port Size Analysis**
 
-The port sizes are required to describe the connectivity strength between brain regions. It was calculated with both the number of neurons and the ratio of connectivity strength we calculated by the above method.
+The port sizes are required to describe the connectivity strength between brain regions. It was calculated with both the number of neurons and the ratio of connectivity strength.
 
-##### Number of voxels in each brain region / major region
+##### Number of voxels in each brain region and major region
 We obtained the volume (the number of voxels) of each of the regions as well as the volume (voxels) of the major regions of the brain from the Allen Brain Atlas SDK. The figure below illustrates the use of various methods and classes to obtain the number of voxels from the SDK.
 
 <img width="672" alt="screen shot 2017-12-25 at 13 17 59" src="https://user-images.githubusercontent.com/32238693/34351848-78857344-ea62-11e7-85a4-a30eb37862ad.png">
 
-The code for obtaining the number of voxels for each region / major region from the SDK is kept in the codes folder in a file called voxel_sdk.py.
+The code for obtaining the number of voxels for each region and major region from the SDK is kept in the codes folder in a file called voxel_sdk.py.
 
-##### Number of neurons in each brain region / major region
-We utilized the numbers indicating the number of neurons in each major regions that a professional who works on brain imaging with cellular resolution, has provided to us, and obtained the number of neurons in each region of the brain. Note that this is possible from examining the ratio of voxels and the number of neurons in both regions and major regions of the brain.
+##### Number of neurons in each brain region and major region
+We utilized the numbers indicating the number of neurons in each major regions that Ryuichi Ueda, director of CIT autonomous robots lab, has provided to us, and obtained the number of neurons in each region of the brain. Note that this is possible from examining the ratio of voxels and the number of neurons in both regions and major regions of the brain.
 
-##### Computing port size
+##### Computing Port Size
 As previously stated in the Associated Technology and Terminology section, we defined port size to be the sheer number of neurons that travels from one region, S, to the other region, T. (e.g. ViSp → VISl). In order to compute the port size, we decided to take into account the number of neurons in S, the connectivity strength(CS) from S to T, and the aggregate connectivity strength from S to the other regions. The equation is as follows.
 
 ![img](http://latex.codecogs.com/svg.latex?N_%7Bout%7D%28S%5Cto%20T%29%20%3D%20%5Cfrac%7BNs%5Cbullet%20CS%28S%5Cto%20T%29%7D%7B%5Csum%20%28CS%28S%5Cto%20%3F%29%29%7D%5C%5C%20Ns%3A%20Number%5C%2Cof%5C%2Ccells%5C%2Cin%5C%2Cregion%5C%2CA%5C%5C%20CS%3A%20Connectivity%5C%2Cstrength%5C%5C)
